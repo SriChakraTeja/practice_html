@@ -1,0 +1,17 @@
+.header{
+    background:url(../Img/rain.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+    height:800px;
+}
+#selectorbtn{
+    opacity:0.6;
+}
+
+#quote{
+    opacity:0.7;
+}
+
+
