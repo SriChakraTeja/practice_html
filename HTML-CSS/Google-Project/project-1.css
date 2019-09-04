@@ -1,0 +1,156 @@
+body{
+    font-family:Arial;
+}
+button{
+    outline: none;
+    height: 45px;
+    width:128px;
+    border:none;
+    font-size: 16px;
+    background-color: rgb(243, 243, 243);
+    letter-spacing: 0.2px;
+    color: rgb(136, 136, 136);
+    border-radius:4px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 1px 2px 5px rgb(53, 52, 52);
+    position: relative;
+    top:-2.5px;
+    color: black;
+}
+button:active{
+    border :1px solid black;
+    box-shadow: 0px 2px 5px black;
+    top:2px;
+}
+*
+{
+    margin : 0px;
+    padding:0px;
+}
+ul{
+    margin:20px 50px 0px 20px;
+    font-display: lighter;
+    list-style-type: none; /* get rid of dots*/
+}
+li{
+    display: inline-block;
+}
+p{
+    display: inline-block;
+}
+#nav{
+    margin-top:20px;
+    margin-left:25px;   
+}
+#nav-right-side{
+    display: inline-block;
+    position: fixed;
+    top:15px;
+    right : 40px;
+}
+.separate-nav-items{
+    margin-left:15px;
+    
+}
+.button-class{
+    margin:20px auto;
+
+}
+#search,#lucky{
+    margin:0px 15px;
+}
+#blue-M{
+    height:35px;
+    width:35px;
+    font-size: 18px;
+    border-radius : 50%;
+    background-color: rgba(64, 64, 199, 0.74);
+    color:white;
+    cursor: pointer;
+}
+
+#google-icon{
+    text-align: center;
+    position: relative;
+    top:175px;
+
+}
+#google-h1{
+    font-size: 70px;
+}
+.google-letters{
+    margin-left: -20px;
+}
+#searchbox{
+    text-align: left;
+    height: 40px;
+    width:500px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+    position:relative;
+    margin-top:25px;
+    outline:none;
+}
+#searchbox:hover{
+
+    /*
+1. shadow to right
+2. shadow to bottom
+3. blur effect
+4. color
+    */
+    box-shadow: 2px 1px 2px gray;
+}
+#searchbox:focus{
+    box-shadow: 2px 1px 2px gray;
+}
+
+#footer{
+    border-bottom:none;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom:0px;
+    width:100%;
+}
+
+#ul-footer{
+   color: rgba(0,0,0,0.54);
+   
+}
+#ul-footer-left{
+    float: left;
+    margin: 10px;
+}
+#ul-footer-right{
+    float: right;
+    margin: 10px;
+}
+.separate-footer-items{
+    margin:10px;
+}
+#nav li{
+    border-bottom: 2px solid white;
+}
+#nav li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid gray;
+}
+.blue-M{
+    border:none !important;
+    
+}
+.blue-M:hover{
+    border:none !important;
+}
+
+#footer-li{
+    border-bottom: 2px solid #f2f2f2;
+}
+#footer-li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid gray;
+}

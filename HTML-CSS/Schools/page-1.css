@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+}
+a{
+    text-decoration: none;
+}
+div#nav-bar{
+    text-align: center;
+    height:90px;
+    background-color: rgb(255, 121, 121);
+    position: relative;
+    padding:40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:50px;
+}
+
+#login{
+    
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative; 
+    left:700px;
+    right:500px;
+
+}
+#signup{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    left:800px;
+}
+
+#location-box{
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:65px;
+    width:400px;
+    border : 1px solid gray;
+    padding-left: 10px;
+    position: relative;
+    top:40px;
+}
+
+#search-box{
+    letter-spacing: 0.5px;
+    background-color: rgb(238, 117, 117);
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:70px;
+    width:125px;
+    border : 1px solid rgb(73, 73, 73);
+    position: relative;
+    top:40px;
+    right:15px;
+
+}

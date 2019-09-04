@@ -1,0 +1,10 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+div{
+    height:20vh;
+    width: 100vw;
+    background-color: hotpink;
+    
+}

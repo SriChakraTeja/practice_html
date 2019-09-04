@@ -1,0 +1,60 @@
+/* 
+
+padding is the area between the 
+content and border
+
+margin/padding/border all
+contains the shorthand
+
+border-width;border-heigth;border-color
+
+border-radius : curves the edges of the border
+
+*/
+
+
+
+*{
+    margin: 0px;
+    border:none;
+   /* background-color: rgb(199, 193, 193);*/
+}
+div{
+    background-color: rgb(83, 88, 78);
+    height : 50px;
+    width:500px;
+    margin-right: 20px;
+    margin:10px 10px;
+    border : 3px solid greenyellow;
+    padding-right: 50px;
+    }
+
+button{
+    height:50px;
+    width:150px;
+    margin: 50px;
+    background-color: rgb(236, 112, 112);
+    /*border-width: 3px;
+    border-style: ridge;
+    border-color: brown;*/
+    margin: 20px 50px 10px 40px;
+    border:2.5px mixed blueviolet;
+    border-radius: 14px;
+    color:rgb(13, 255, 85);
+    }
+select{
+    background-color: aqua;
+    margin:20px 50px;
+    }
+h2:hover{
+    margin-left: 5000px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    width : 100px      
+}
+input{
+    border-radius: 14px;
+    border:2px solid gray;
+    padding: 3px 0px 3px 6px;
+    margin:20px;
+}

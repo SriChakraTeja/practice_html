@@ -1,0 +1,37 @@
+/*
+When we target a specific html elements.. al elements on the linked html paged will be effected by those
+styles
+
+
+We need to use the curly braces {} after specifying what element you want to style
+
+put all the styles you want to effect the elemnt inside the curly braces - if dont ..abd things heappen
+
+we need to add the colon after the property..the property is the style name.
+
+The values are what comes after the property and colon.
+semicolons at the end of each line are necessary if you are done writing code on that line
+
+We can use * selector select all elements
+and apply styles to all elements
+
+*/
+
+
+div {  
+    background-color: rgb(63, 60, 60);
+        height: 250px;
+        width:400px;
+       margin: 20px;
+        }
+
+h1{
+    font-size: 10px;
+    color: rgb(206, 106, 106);
+    }
+
+*
+{
+    margin:10px;
+    background-color: rgb(46, 46, 46)
+}

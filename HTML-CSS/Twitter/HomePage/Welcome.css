@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.logo{
+    display:flex;
+    padding-top:15px;
+    padding-left:15px;
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    font-size:35px;
+    top:5px;
+    left:5px;
+    position: absolute; 
+}
+
+.main-div{
+    background-color: #f4c150;
+    height:95vh;
+    width:100%;
+    background:linear-gradient(to bottom,#fcc54f,#ad8020 );
+}
+
+.login-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: 'Alegreya', serif;
+    padding-right:150px;
+    
+}
+#useraccess{
+    margin-top: 40px;
+    border: 1px solid black;
+    padding:10px;
+    border-radius:4px;  
+}
+.loginButton{
+    margin-left : 15px;
+    padding-right:250px;
+}
+.userNameInput{
+    margin-right:25px;
+}
+.forgotPassword{
+    margin-top: 5px;
+    margin-left:235px; 
+}
+.registerSection{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:center;
+    padding-right:100px;
+    padding-bottom:400px;
+    font-family: 'Alegreya', serif;
+    
+}
+.regBtn{
+    height:50px;
+    width:150px;
+    margin-top:30px;
+    margin-right:50px;
+}
+.content-service{
+    font-size:25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:150px;
+    padding-top:100px;
+    font-family: 'Alegreya', serif;
+}
+
+.modal{
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+}
+
+.footer{
+    height:60px;
+    position: fixed;
+    bottom:0px;
+   
+}
+
+@media(min-width:900px) and (max-width:1300px){
+    .registerSection{
+        position: relative;
+        top:105px;
+        right:100px;
+    }
+}
+
+@media(min-width:400px) and (max-width:901px){
+
+    .content-service{
+        padding-left:0px;
+        padding-top:0px;
+        top:10px;
+        font-size:20px;
+    }
+    .registerSection{
+        margin-top:175px;
+        margin-left:50px;
+    }
+    .registerSection h1{
+        font-size:35px!important;
+    }
+
+    .logo img{
+        height:90px;
+        width:90px;
+    }
+}   

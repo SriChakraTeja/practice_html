@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="images/icon.PNG">
+    <link rel="stylesheet" href="Welcome.css">
+    <script src="https://kit.fontawesome.com/8c6cab4692.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Asap&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IELTS Web</title>
+</head>
+<body>
+
+<div class = "main-div">
+
+    <div class = "logo">
+       <img class = "icon" src="images/logo.PNG" alt="icon" height="150" width="150">
+    </div>
+
+    <div class = " container-fluid login-btn float-right d-flex">
+        <form action = "">
+            <input type="text" class = "userNameInput" id = "useraccess" placeholder="Username or Email"/>
+            <input type="password" class = "PasswordInput" id = "useraccess" placeholder="Password"/>
+            <input type="button" class = "loginButton text-light btn-primary btn-outline-dark" id = "useraccess" value = "Log in"/>
+            <p class = "forgotPassword"><a class = "forgotLink" href="#">Forgot Password ?</a></p>
+        </form>
+    </div>
+
+    <div class = "content-service" >
+        <h1 class = "display-2" style="font-size:45px;">We are a world-wide provider of free,<br> online IELTS previous and practice papers.</h1>
+        
+            <div class = "p-lg-4 p-sm-2 align-self-start">
+                <i class="fas fa-check mr-2"></i>     
+                More than 100 practice tests along with previous papers.
+            </div>
+
+            <div class = "p-lg-4 p-sm-2 align-self-start">
+                <i class="fas fa-check mr-2"></i>   
+                In-depth analysis.  
+            </div>
+
+            <div class = "p-lg-4 p-sm-2 align-self-start">
+                <i class="fas fa-check mr-2"></i>     
+                Round the clock support. 
+            </div>  
+    </div>
+
+    <div class = "registerSection align-self-end">
+        <h1 class = "display-1" style="font-size:45px;">
+            To evaluate yourself and to <br> get access, <em>register with us today.</em>
+        </h1>
+        <button type = "button" class = "btn btn-primary btn-lg btn-outline-dark text-light regBtn" data-toggle = "modal"
+        data-target="#regBtn">
+        <i class = "fas fa-user mr-2"></i>
+            Register
+        </button>
+    </div>
+</div>
+
+    <div class = "footer">
+
+    </div>
+
+<!---Sign Up Modal--->
+    <div class="modal fade outline-primary" id="regBtn" tabindex="-1" 
+    role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class = "modal-dialog modal-sm modal-center" >
+            <div class = "modal-content bg-warning">
+                <div class = "modal-header">
+                    <h5 class = "modal-title" id = "modalTitle" style = "font-weight:bold!important"> Sign Up</h5>
+                    <button type = "button" class = "close" data-dismiss = "modal">
+                        <span aria-hidden="true">&times;</span>
+                    </button>                
+                </div>
+                <div class = "modal-body">
+                    <form action="">
+                        <label for="Username">Username</label>
+                        <input type="text" class = "form-control"  id = "user-name">
+                        <br>
+                        <label for="email">Email</label>
+                        <input type="email" class = "form-control"  id = "email">
+                        <br>
+                        <label for="password">Password</label>
+                        <input type="email" class = "form-control"  id = "password">
+                        <br>
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="email" class = "form-control"  id = "confirmPassword">
+                        <br>
+                        <input type="submit" class = "btn btn-primary btn-block btn-outline-dark text-light" value = "Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

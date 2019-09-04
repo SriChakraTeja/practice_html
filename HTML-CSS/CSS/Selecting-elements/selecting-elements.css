@@ -1,0 +1,78 @@
+/*
+0 0 1 is selector specifity for elements that are directly used
+Eg: button,div e.t.c
+
+0 1 0 is selector specifity that is used for classes of the elements
+
+1 0 0 is selector specifity that is used for id's of the element
+*/
+
+
+button
+{
+    background-color: rgb(231, 112, 112);
+        border-radius: 4px;
+    
+}
+
+#firstButton.button-one{
+    background-color: goldenrod;
+}
+
+button#click-button.button-class{
+
+    background-color: black;
+}
+
+#firstButton{
+    height : 50px;
+    width : 100px;
+    background-color: hotpink;
+    color: black;
+    border-radius : 15px;
+    border : 5px solid gray;
+}
+
+button#secondButton.button-two{
+   height:40px;
+   width:100px;
+   margin : 50px 100px;
+   border-radius:40px;
+
+}
+
+#thirdButton{
+    background-color: rgb(231, 112, 112);
+    background: 4px solid rgb(236, 95, 95);
+    color : rgb(68, 68, 68);
+    border-radius: 4px;
+}
+
+#firstDiv
+{
+    background-color: antiquewhite;
+    width : 50px;
+}
+
+
+#secondDiv:hover
+{
+background-color: black;
+width:100px;
+color:red;
+margin : 15px;
+}
+
+.Yellow{
+    color:yellowgreen
+}
+.Blue:hover
+{
+ background-color: blue;
+}
+/*
+#test-box:hover
+{
+background-color: tomato;
+}
+*/

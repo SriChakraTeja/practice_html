@@ -1,0 +1,49 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Alegreya', serif;
+    
+}
+.bg-ielts{
+    background:linear-gradient(to bottom,#fcc54f,#ad8020 );
+    min-height:1000px;
+}
+.loginUser{
+   height:40px;
+}
+.passWordAndForgot{
+    display: flex;
+    flex-direction: column;
+}
+.userLogin{
+    height:45px;
+    border-radius:4px;
+    border: 1px solid rgb(206, 193, 193);
+}
+.bulletPoints{
+    font-size:25px;
+    padding:10px!important;
+}
+#bulletPoints{
+    padding-left:25px!important;
+}
+
+.serviceContent{
+    padding-top:100px!important;
+}
+.regBtn{
+    font-size:25px!important;
+    width:200px;
+    margin-top:30px;
+    margin-left:450px!important;
+}
+
+.cards-header{
+    min-height:60px;
+    font-size:35px;
+
+}
+input button{
+    display-focus:none;
+}
